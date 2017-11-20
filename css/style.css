@@ -11,6 +11,7 @@ input {
 
 input::-webkit-input-placeholder {
     color: rgba(255, 255, 255, 0.33);
+    font-size: 16px;
 }
 
 #check-box {
@@ -18,7 +19,7 @@ input::-webkit-input-placeholder {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #52708e;
+    background-color: darkslateblue;
     padding-bottom: 10px;
 }
 
@@ -65,4 +66,7 @@ input[type=text]:focus {
     color: white;
     text-align: center;
     height: 25px;
+    text-transform: uppercase;
 }
+
+#ff0000
