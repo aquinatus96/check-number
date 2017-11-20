@@ -6,8 +6,10 @@ function checkOut() {
         document.getElementById('wynik').innerHTML='dodatnia';
     } else if (liczba < 0) {
         document.getElementById('wynik').innerHTML='ujemna';
-    } else if (liczba == 0) {
+    } else if (liczba === 0) {
         document.getElementById('wynik').innerHTML='zero';
+    } else if (liczba == 0) {
+        document.getElementById('wynik').innerHTML='nie podałeś żadnej wartości';
     } else {
         document.getElementById('wynik').innerHTML='You know nothing Jon Snow!';
     }
