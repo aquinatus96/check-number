@@ -21,6 +21,7 @@ input::-webkit-input-placeholder {
     transform: translate(-50%, -50%);
     background-color: darkslateblue;
     padding-bottom: 10px;
+    border: 1px solid dodgerblue;
 }
 
 #pole {
@@ -34,7 +35,7 @@ input::-webkit-input-placeholder {
     color: #fff;
     border: none;
     border-bottom: 2px solid white;
-    
+
 }
 
 input[type=text]:focus {
@@ -42,7 +43,7 @@ input[type=text]:focus {
 }
 
 #btn {
-    margin:0 auto;
+    margin: 0 auto;
     display: block;
     background-color: #fff;
     border: none;
